@@ -33,7 +33,7 @@ cp -fr ~/Github/JDS/_config.yml home/%USERNAME%/$projectvar
 
 cp -fr ~/Github/JDS/Gemfile home/%USERNAME%/$projectvar
 
-cd home/%USERNAME%/$projectvar
+cd home/%USERNAME%cd J/$projectvar
 
 bundle install
 
@@ -41,4 +41,4 @@ bundle install
 
 rm .editorconfig .gitattributes .scss-lint.yml CHANGELOG.md jekyll-theme-basically-basic.gemspec LICENSE Rakefile README.md screenshot.png
 
-rmdir -rf .github docs example
+rm -rf .github docs example
