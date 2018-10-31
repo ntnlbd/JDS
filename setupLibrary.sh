@@ -55,6 +55,7 @@ function changeSSHConfig() {
 function setupUfw() {
     sudo ufw allow OpenSSH
     yes y | sudo ufw enable
+    sudo ufw allow 4000
 }
 
 # Create the swap file based on amount of physical memory on machine (Maximum size of swap is 4GB)
