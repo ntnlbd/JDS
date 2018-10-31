@@ -9,6 +9,7 @@ jekyll -v
 bundler -v
 
 #Create new jekyll project
+
 read -p 'Current user: ' uservar
 read -p 'New Jekyll project name: ' projectvar
 
@@ -29,11 +30,11 @@ git reset --hard origin/master
 
 rm -rf .git
 
-cp -fr home/$uservar/JDS/_config.yml home/$uservar/$projectvar
+cp -fr /home/$uservar/JDS/_config.yml /home/$uservar/$projectvar
 
-cp -fr home/$uservar/JDS/Gemfile home/$uservar/$projectvar
+cp -fr /home/$uservar/JDS/Gemfile /home/$uservar/$projectvar
 
-cd home/$uservar/$projectvar
+cd /home/$uservar/$projectvar
 
 bundle install
 
