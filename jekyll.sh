@@ -33,7 +33,7 @@ cp -fr ~/Github/JDS/_config.yml home/%USERNAME%/$projectvar
 
 cp -fr ~/Github/JDS/Gemfile home/%USERNAME%/$projectvar
 
-cd home/%USERNAME%cd J/$projectvar
+cd home/%USERNAME%/$projectvar
 
 bundle install
 
