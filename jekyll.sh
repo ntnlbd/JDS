@@ -9,7 +9,7 @@ jekyll -v
 bundler -v
 
 #Create new jekyll project
-read -p 'Current user: ' uservarvar
+read -p 'Current user: ' uservar
 read -p 'New Jekyll project name: ' projectvar
 
 
