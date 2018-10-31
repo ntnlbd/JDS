@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This code is taken from https://github.com/jasonheecs/ubuntu-server-setup
+
 # Add the new user account
 # Arguments:
 #   Account Username

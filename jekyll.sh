@@ -36,9 +36,9 @@ rm -rf .git
 #
 # cd /home/$uservar/$projectvar
 
-cp -fr ../JDS/_config.yml _config.yml
+cp -fr ../JDS/jekyll-configs/_config.yml _config.yml
 
-cp -fr ../JDS/Gemfile Gemfile
+cp -fr ../JDS/jekyll-configs/Gemfile Gemfile
 
 bundle install
 

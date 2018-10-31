@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This code is taken from https://github.com/jasonheecs/ubuntu-server-setup
+
 set -e
 
 function getCurrentDir() {
