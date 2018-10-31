@@ -107,3 +107,5 @@ function promptForPassword() {
 }
 
 main
+
+exit
