@@ -30,6 +30,3 @@ sudo npm install -g vtop
 # tmux new -s jekyll
 
 tmux new -s monitor 'vtop'
-
-read -p 'Enter server IP: ' serveripvar
-tmux new -s jekyll 'bundle exec jekyll serve --host='$serveripvar''
